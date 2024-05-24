@@ -1,0 +1,55 @@
+# Cause Detection for Increase in Traffic Accidents
+
+## Overview
+
+This repository contains the code and documentation for analyzing the increase in traffic accidents and detecting the underlying causes. The project utilizes a Random Forest classifier for initial modeling and semi-supervised learning techniques to leverage both labeled and unlabeled data, aiming to improve model performance and interpret the factors contributing to the rise in traffic accidents.
+
+## Contents
+
+- `data/`: Directory containing the datasets used in the analysis.
+- `src/`: Directory containing the source code for data preprocessing, model training, and SHAP analysis.
+- `notebooks/`: Jupyter notebooks demonstrating the data analysis, model development, and SHAP interpretation steps.
+- `results/`: Directory to store the results of the analysis, including visualizations and reports.
+
+## Setup Instructions
+
+1. Clone this repository to your local machine:
+
+   ```bash
+   git clone https://github.com/your_username/cause-detection-traffic-accidents.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd cause-detection-traffic-accidents
+   ```
+
+3. Set up the Python environment:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## Usage
+
+### 1. Data Preparation
+
+- Ensure the availability of relevant datasets in the `data/` directory.
+- Preprocess the data, handling missing values and engineering features.
+
+### 2. Model Training with Random Forest
+
+- Train an initial Random Forest classifier using labeled data.
+- Implement semi-supervised learning techniques to incorporate unlabeled data and enhance model performance.
+
+### 3. SHAP Analysis
+
+- Employ SHAP to interpret the predictions of the trained Random Forest model.
+- Analyze feature importance and visualize global and local feature contributions to predictions.
+
+### 4. Interpretation and Reporting
+
+- Analyze SHAP results to interpret the factors driving the increase in traffic accidents.
+- Generate comprehensive reports, visualizations, and insights for effective communication and recommendation.
+
